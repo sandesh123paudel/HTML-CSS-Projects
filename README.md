@@ -10,6 +10,6 @@
 
 ## Preview
 
-![Product Card Design](./Projects%20Screenshots/sidebar.png)
+![SideBar Design](./Projects%20Screenshots/sidebar.png)
 
 ### URL: https://sandeshpaudel-sidebar.netlify.app/
