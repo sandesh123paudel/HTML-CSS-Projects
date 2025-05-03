@@ -8,8 +8,10 @@
 
 # Simple Sidebar Design
 
+
+
 ## Preview
 
 ![SideBar Design](./Projects%20Screenshots/sidebar.png)
 
-### URL: https://sandeshpaudel-sidebar.netlify.app/
+##URL: https://sandeshpaudel-sidebar.netlify.app/
