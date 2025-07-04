@@ -2,9 +2,9 @@
   "name": "air-bnb-using-tailwind",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "dev": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -16,15 +16,31 @@
     <header>
 
       <!--Navbar Section-->
-      <div class="grid grid-cols-3">
-        <img src="static/airbnb-logo.png" alt="Logo">
-        <div class="flex">
-          <button>Anywhere</button>
-          <button>Any week</button>
-          <button>Add Guests</button>
+      <div
+        class="grid grid-cols-3 px-16 w-screen h-20 border-b-[1px] items-center fixed top-0 bg-white">
+        <img src="static/airbnb-logo.png" alt="Logo" class="h-16 w-28">
+        <div
+          class="flex justify-evenly items-center border rounded-full shadow-md h-12 w-96">
+          <button class="border-r-2 text-sm font-medium px-4">Anywhere</button>
+          <button class="border-r-2 text-sm font-medium px-4">Any week</button>
+          <button class="text-sm font-medium px-4 text-gray-500">Add
+            Guests</button>
+          <i
+            class="fa-solid fa-magnifying-glass bg-red-500 text-white rounded-full p-2"></i>
 
         </div>
-        <div>
+        <div class="flex justify-end items-center gap-8">
+          <button class="text-sm font-medium">Air bnb Home</button>
+          <span class="material-symbols-outlined ">
+            language
+          </span>
+          <div
+            class="flex justify-evenly items-center gap-2 rounded-full border shadow-md h-10 w-20 py-1.25 pr-1.25 pl-2">
+            <i class="fa-solid fa-bars"></i>
+            <button
+              class="bg-black text-white rounded-full text-center text-[10px] font-semibold h-7 w-7">E</button>
+
+          </div>
 
         </div>
 
@@ -32,15 +48,258 @@
 
       <!--Category Bar-->
 
+      <div
+        class="flex items-center h-24 space-x-5 top-20 fixed bg-white w-screen">
+        <div class="flex items-center justify-center space-x-10">
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2 pl-16">
+            <img src="static/type1.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Amazing pools</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type2.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Play</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type3.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Historical Homes</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2 ">
+            <img src="static/type4.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Country Side</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type5.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Country Side</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type6.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Country Side</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type7.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Amazing views</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type8.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Rooms</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type9.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Lakefront</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type10.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Beachfront</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type11.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">OMG!</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-gray-400 hover:text-black gap-2">
+            <img src="static/type12.jpeg" alt class="h-6 w-6">
+            <p class="text-xs font-normal">Golfing</p>
+          </div>
+
+        </div>
+
+        <i class="fa-regular fa-circle-right pl-16"></i>
+
+        <div
+          class="flex justify-around items-center rounded-xl shadow-md h-12 w-24 border">
+          <span class="material-symbols-outlined pl-2">
+            sync_alt
+          </span>
+          <p class="text-xs font-medium pr-2">Filters</p>
+
+        </div>
+      </div>
+
       <!--Price Bar-->
+      <div class="flex justify-center mt-48">
+        <div
+          class="flex justify-between items-center p-4 border rounded-xl w-[600px] h-16">
+          <div class="flex justify-start">
+            <p
+              class="border-r-2 border-gray-400 pr-4 text-base font-medium">Display
+              total
+              price</p>
+            <p class="text-gray-400 pl-4">Includes all fees, before taxes</p>
+          </div>
+          <i class="fa-solid fa-toggle-off "></i>
+        </div>
+
+      </div>
 
     </header>
 
-    <main>
+    <main class="mt-14 mx-16">
+      <div class="grid grid-cols-4 gap-6">
 
+        <!-- Card 1 -->
+        <div class="flex flex-col h-96 w-72">
+          <img src="static/img1.jpg" alt class="w-72 h-64 rounded-xl">
+          <div class="flex items-center justify-between mt-2">
+            <p class="text-sm font-medium">Kathmandu, Nepal</p>
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <p class="text-sm font-light">4.9</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">2 kilometers away</p>
+          <p class="text-sm text-gray-400">12 Jul - 17 Jul</p>
+          <p class="text-sm font-medium mt-2">Rs. 9,500</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="flex flex-col h-96 w-72">
+          <img src="static/img2.jpg" alt class="w-72 h-64 rounded-xl">
+          <div class="flex items-center justify-between mt-2">
+            <p class="text-sm font-medium">Pokhara, Nepal</p>
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <p class="text-sm font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">15 kilometers away</p>
+          <p class="text-sm text-gray-400">5 Aug - 10 Aug</p>
+          <p class="text-sm font-medium mt-2">Rs. 12,000</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="flex flex-col h-96 w-72">
+          <img src="static/img3.jpg" alt class="w-72 h-64 rounded-xl">
+          <div class="flex items-center justify-between mt-2">
+            <p class="text-sm font-medium">Lalitpur, Nepal</p>
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <p class="text-sm font-light">4.7</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">3 kilometers away</p>
+          <p class="text-sm text-gray-400">20 Jul - 25 Jul</p>
+          <p class="text-sm font-medium mt-2">Rs. 8,000</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="flex flex-col h-96 w-72">
+          <img src="static/img4.jpg" alt class="w-72 h-64 rounded-xl">
+          <div class="flex items-center justify-between mt-2">
+            <p class="text-sm font-medium">Bhaktapur, Nepal</p>
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <p class="text-sm font-light">4.8</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">10 kilometers away</p>
+          <p class="text-sm text-gray-400">1 Aug - 6 Aug</p>
+          <p class="text-sm font-medium mt-2">Rs. 11,000</p>
+        </div>
+
+        <!-- Cards 5 to 20 -->
+        <!-- You can paste this block multiple times with minor changes to simulate dynamic content -->
+        <!-- Just changing images in sequence img1.jpg → img4.jpg repeatedly -->
+
+        <!-- Card 5 -->
+        <div class="flex flex-col h-96 w-72">
+          <img src="static/img1.jpg" alt class="w-72 h-64 rounded-xl">
+          <div class="flex items-center justify-between mt-2">
+            <p class="text-sm font-medium">Chitwan, Nepal</p>
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <p class="text-sm font-light">4.5</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">8 kilometers away</p>
+          <p class="text-sm text-gray-400">3 Jul - 7 Jul</p>
+          <p class="text-sm font-medium mt-2">Rs. 10,200</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="flex flex-col h-96 w-72">
+          <img src="static/img2.jpg" alt class="w-72 h-64 rounded-xl">
+          <div class="flex items-center justify-between mt-2">
+            <p class="text-sm font-medium">Dhulikhel, Nepal</p>
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <p class="text-sm font-light">4.6</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">12 kilometers away</p>
+          <p class="text-sm text-gray-400">18 Jul - 22 Jul</p>
+          <p class="text-sm font-medium mt-2">Rs. 9,000</p>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="flex flex-col h-96 w-72">
+          <img src="static/img3.jpg" alt class="w-72 h-64 rounded-xl">
+          <div class="flex items-center justify-between mt-2">
+            <p class="text-sm font-medium">Nagarkot, Nepal</p>
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <p class="text-sm font-light">4.4</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">20 kilometers away</p>
+          <p class="text-sm text-gray-400">25 Jul - 30 Jul</p>
+          <p class="text-sm font-medium mt-2">Rs. 11,500</p>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="flex flex-col h-96 w-72">
+          <img src="static/img4.jpg" alt class="w-72 h-64 rounded-xl">
+          <div class="flex items-center justify-between mt-2">
+            <p class="text-sm font-medium">Butwal, Nepal</p>
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-star text-yellow-500"></i>
+              <p class="text-sm font-light">4.3</p>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400">25 kilometers away</p>
+          <p class="text-sm text-gray-400">10 Jul - 15 Jul</p>
+          <p class="text-sm font-medium mt-2">Rs. 7,800</p>
+        </div>
+
+        <!-- Repeat similar blocks with img1–img4 up to Card 20 -->
+        <!-- To avoid redundancy here, I can provide a code generator snippet if you prefer using JavaScript or want all 20 blocks pasted directly. Just let me know. -->
+
+      </div>
     </main>
 
-    <footer>
+    <footer
+      class="flex justify-between h-12 items-center px-10 fixed bottom-0 w-screen bg-white">
+      <div class="flex text-sm font-base space-x-2 ">
+        <p>© 2025 Airbnb, Inc.</p>
+        <p>·</p>
+        <p>Terms</p>
+        <p>·</p>
+        <p>Sitemap</p>
+        <p>·</p>
+        <p>Privacy</p>
+        <p>·</p>
+        <p>Company Details </p>
+      </div>
+      <div class="flex flex text-sm font-medium space-x-2 ">
+        <span class="material-symbols-outlined ">
+          language
+        </span>
+        <p>English</p>
+        <p>Rupees</p>
+        <p>Support & resources</p>
+
+      </div>
 
     </footer>
 
